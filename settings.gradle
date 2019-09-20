@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name='Graphing Widgets Beta'
+rootProject.name='My Application'
