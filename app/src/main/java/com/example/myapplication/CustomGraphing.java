@@ -58,8 +58,10 @@ public class CustomGraphing extends SurfaceView implements SurfaceHolder.Callbac
         canvas.drawCircle(525, 600, (float)(Math.sqrt(Math.pow(getxCoor() - 525, 2) + Math.pow(getyCoor() - 600, 2))), paint);
         paint.setColor(Color.GREEN);
         canvas.drawRect(525 - (float)(Math.sqrt(Math.pow(getxCoor() - 525, 2) + Math.pow(getyCoor() - 600, 2))), 600 - (float)(Math.sqrt(Math.pow(getxCoor() - 525, 2) + Math.pow(getyCoor() - 600, 2))), 525 + (float)(Math.sqrt(Math.pow(getxCoor() - 525, 2) + Math.pow(getyCoor() - 600, 2))), 600 + (float)(Math.sqrt(Math.pow(getxCoor() - 525, 2) + Math.pow(getyCoor() - 600, 2))), paint);
+        canvas.drawLine(525 - (float)(Math.sqrt(Math.pow(getxCoor() - 525, 2) + Math.pow(getyCoor() - 600, 2))), 600 - (float)(Math.sqrt(Math.pow(getxCoor() - 525, 2) + Math.pow(getyCoor() - 600, 2))), 525 + (float)(Math.sqrt(Math.pow(getxCoor() - 525, 2) + Math.pow(getyCoor() - 600, 2))), 600 + (float)(Math.sqrt(Math.pow(getxCoor() - 525, 2) + Math.pow(getyCoor() - 600, 2))), paint);
         paint.setColor(Color.BLUE);
         canvas.drawRect(525 - (float)(Math.sqrt(2) * (Math.sqrt(Math.pow(getxCoor() - 525, 2) + Math.pow(getyCoor() - 600, 2))) / 2), 600 - (float)(Math.sqrt(2) * (Math.sqrt(Math.pow(getxCoor() - 525, 2) + Math.pow(getyCoor() - 600, 2))) / 2), 525 + (float)(Math.sqrt(2) * (Math.sqrt(Math.pow(getxCoor() - 525, 2) + Math.pow(getyCoor() - 600, 2))) / 2), 600 + (float)(Math.sqrt(2) * (Math.sqrt(Math.pow(getxCoor() - 525, 2) + Math.pow(getyCoor() - 600, 2))) / 2), paint);
+        canvas.drawLine(525 + (float)(Math.sqrt(2) * (Math.sqrt(Math.pow(getxCoor() - 525, 2) + Math.pow(getyCoor() - 600, 2))) / 2), 600 - (float)(Math.sqrt(2) * (Math.sqrt(Math.pow(getxCoor() - 525, 2) + Math.pow(getyCoor() - 600, 2))) / 2), 525 - (float)(Math.sqrt(2) * (Math.sqrt(Math.pow(getxCoor() - 525, 2) + Math.pow(getyCoor() - 600, 2))) / 2), 600 + (float)(Math.sqrt(2) * (Math.sqrt(Math.pow(getxCoor() - 525, 2) + Math.pow(getyCoor() - 600, 2))) / 2), paint);
         surfaceHolder.unlockCanvasAndPost(canvas);
     }
 
