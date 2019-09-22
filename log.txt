@@ -1,0 +1,203 @@
+commit 146daf2e736858c6ca15c2c947048eb880cb7523
+Author: byan13 <46941918+byan13@users.noreply.github.com>
+Date:   Sun Sep 22 15:25:30 2019 -0400
+
+    Update README.md
+
+ README.md | 31 +++++++++++++++++++++++++++++--
+ 1 file changed, 29 insertions(+), 2 deletions(-)
+
+commit 877b5eb7e2620b289e66002960d601f5b6847a2f
+Author: Bo Yan <byan2@binghamton.edu>
+Date:   Sun Sep 22 14:42:12 2019 -0400
+
+    Final final commit
+
+ app/src/main/java/com/example/myapplication/CustomGraphing.java | 2 ++
+ 1 file changed, 2 insertions(+)
+
+commit 8a83984b7bf8d3c3866f3ac3ab7e26c233854774
+Author: Bo Yan <byan2@binghamton.edu>
+Date:   Sun Sep 22 14:24:44 2019 -0400
+
+    Final commit
+
+ app/src/main/java/com/example/myapplication/MainActivity.java | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+
+commit de4a1ad5b72434e02210c065305fe9187807ea26
+Author: Bo Yan <byan2@binghamton.edu>
+Date:   Sun Sep 22 14:15:28 2019 -0400
+
+    Version 2.0 updated
+
+ app/build.gradle                                   |  1 +
+ .../com/example/myapplication/CustomGraphing.java  | 59 +++++++++++++++++++---
+ .../com/example/myapplication/MainActivity.java    | 47 ++++++++++++++++-
+ app/src/main/res/drawable/ic_convert.xml           |  9 ++++
+ app/src/main/res/layout/activity_main.xml          | 18 +++++++
+ app/src/main/res/values/styles.xml                 |  2 +-
+ 6 files changed, 127 insertions(+), 9 deletions(-)
+
+commit cc820e56a5bcabb70c2896989cbabb2edf45c8a6
+Author: Bo Yan <byan2@binghamton.edu>
+Date:   Sat Sep 21 12:33:08 2019 -0400
+
+    Initial version done, will add more features
+
+ .../com/example/myapplication/CustomGraphing.java  | 73 ++++++++++++++++++++++
+ .../com/example/myapplication/MainActivity.java    | 66 ++++++++++---------
+ app/src/main/res/layout/activity_main.xml          | 25 ++------
+ app/src/main/res/layout/content_main.xml           | 13 +---
+ 4 files changed, 115 insertions(+), 62 deletions(-)
+
+commit d006560771e6affece7f12c4936b9a26d0564c03
+Author: byan13 <46941918+byan13@users.noreply.github.com>
+Date:   Fri Sep 20 10:30:45 2019 -0400
+
+    Create README.md
+
+ README.md | 2 ++
+ 1 file changed, 2 insertions(+)
+
+commit 86495fccb0fa1e58bc25451507062cb4360ef128
+Author: Bo Yan <byan2@binghamton.edu>
+Date:   Fri Sep 20 10:27:53 2019 -0400
+
+    Class update
+
+ .idea/.name                                        |   2 +-
+ .idea/misc.xml                                     |   7 +-
+ README.md                                          |   2 -
+ app/build.gradle                                   |  20 ++--
+ .../ExampleInstrumentedTest.java                   |   4 +-
+ app/src/main/AndroidManifest.xml                   |   7 +-
+ .../com/example/graphingwidgetsbeta/MySurface.java | 110 ---------------------
+ .../MainActivity.java                              |   2 +-
+ app/src/main/res/layout/activity_main.xml          |  52 ++++------
+ app/src/main/res/layout/content_main.xml           |  20 ++++
+ app/src/main/res/menu/menu_main.xml                |  10 ++
+ app/src/main/res/values/dimens.xml                 |   3 +
+ app/src/main/res/values/strings.xml                |   3 +-
+ app/src/main/res/values/styles.xml                 |   9 ++
+ .../ExampleUnitTest.java                           |   2 +-
+ gradle/wrapper/gradle-wrapper.properties           |   2 +-
+ settings.gradle                                    |   2 +-
+ 17 files changed, 88 insertions(+), 169 deletions(-)
+
+commit e90f6122f128c1e73234d33a8d29072b0893d72f
+Author: Bo Yan <byan2@binghamton.edu>
+Date:   Wed Sep 18 10:05:49 2019 -0400
+
+    Something's wrong, but will be fixed
+
+ app/build.gradle                                   |  20 ++--
+ app/src/main/AndroidManifest.xml                   |   7 +-
+ .../example/graphingwidgetsbeta/CustomDrawing.java |   1 -
+ .../com/example/graphingwidgetsbeta/MySurface.java | 110 +++++++++++++++++++++
+ app/src/main/res/layout/activity_main.xml          |  52 ++++++----
+ app/src/main/res/layout/content_main.xml           |  20 ----
+ app/src/main/res/menu/menu_main.xml                |  10 --
+ app/src/main/res/values/dimens.xml                 |   3 -
+ app/src/main/res/values/strings.xml                |   3 +-
+ app/src/main/res/values/styles.xml                 |   9 --
+ 10 files changed, 154 insertions(+), 81 deletions(-)
+
+commit 4d5be6ae7171297458d98c1e0b7bc7a7ac03ac33
+Author: Bo Yan <byan2@binghamton.edu>
+Date:   Tue Sep 17 14:43:28 2019 -0400
+
+    class update
+
+ .../example/graphingwidgetsbeta/CustomDrawing.java | 108 ---------------------
+ 1 file changed, 108 deletions(-)
+
+commit 4e3e29b5a245d0010db5e5e9acda21e8eea0ae0f
+Author: Bo Yan <byan2@binghamton.edu>
+Date:   Sun Sep 15 21:04:28 2019 -0400
+
+    CustomDrawing class update
+
+ .../example/graphingwidgetsbeta/CustomDrawing.java | 109 ++++++++++++++++++++-
+ 1 file changed, 107 insertions(+), 2 deletions(-)
+
+commit 87424d5e18ce820f8d0f1e797f1210fb1162fe52
+Author: Bo Yan <byan2@binghamton.edu>
+Date:   Fri Sep 13 10:14:02 2019 -0400
+
+    CustomDrawing class added
+
+ .idea/misc.xml                                     |   2 +-
+ .../ExampleInstrumentedTest.java                   |   1 +
+ app/src/main/AndroidManifest.xml                   |   6 +-
+ .../example/graphingwidgetsbeta/CustomDrawing.java |   4 +
+ .../example/graphingwidgetsbeta/MainActivity.java  |   5 +-
+ .../res/drawable-v24/ic_launcher_foreground.xml    |  12 +-
+ .../main/res/drawable/ic_launcher_background.xml   | 236 +++++++++++++++------
+ app/src/main/res/layout/activity_main.xml          |   7 +-
+ app/src/main/res/layout/content_main.xml           |   9 +-
+ app/src/main/res/menu/menu_main.xml                |   7 +-
+ app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml |   4 +-
+ .../res/mipmap-anydpi-v26/ic_launcher_round.xml    |   4 +-
+ app/src/main/res/values/styles.xml                 |   3 +
+ gradle.properties                                  |   5 -
+ 14 files changed, 203 insertions(+), 102 deletions(-)
+
+commit 736d09335de4e1c4c6cd1b3d6ba670e58d249a2f
+Author: Bo Yan <byan2@binghamton.edu>
+Date:   Wed Sep 11 09:47:00 2019 -0400
+
+    First commit, project created
+
+ .gitignore                                         |  14 ++
+ .idea/.name                                        |   1 +
+ .idea/codeStyles/Project.xml                       | 116 ++++++++++++++
+ .idea/gradle.xml                                   |  16 ++
+ .idea/misc.xml                                     |   9 ++
+ .idea/runConfigurations.xml                        |  12 ++
+ .idea/vcs.xml                                      |   6 +
+ app/.gitignore                                     |   1 +
+ app/build.gradle                                   |  30 ++++
+ app/proguard-rules.pro                             |  21 +++
+ .../ExampleInstrumentedTest.java                   |  26 ++++
+ app/src/main/AndroidManifest.xml                   |  24 +++
+ .../example/graphingwidgetsbeta/MainActivity.java  |  52 +++++++
+ .../res/drawable-v24/ic_launcher_foreground.xml    |  34 ++++
+ .../main/res/drawable/ic_launcher_background.xml   |  74 +++++++++
+ app/src/main/res/layout/activity_main.xml          |  34 ++++
+ app/src/main/res/layout/content_main.xml           |  21 +++
+ app/src/main/res/menu/menu_main.xml                |   9 ++
+ app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml |   5 +
+ .../res/mipmap-anydpi-v26/ic_launcher_round.xml    |   5 +
+ app/src/main/res/mipmap-hdpi/ic_launcher.png       | Bin 0 -> 2963 bytes
+ app/src/main/res/mipmap-hdpi/ic_launcher_round.png | Bin 0 -> 4905 bytes
+ app/src/main/res/mipmap-mdpi/ic_launcher.png       | Bin 0 -> 2060 bytes
+ app/src/main/res/mipmap-mdpi/ic_launcher_round.png | Bin 0 -> 2783 bytes
+ app/src/main/res/mipmap-xhdpi/ic_launcher.png      | Bin 0 -> 4490 bytes
+ .../main/res/mipmap-xhdpi/ic_launcher_round.png    | Bin 0 -> 6895 bytes
+ app/src/main/res/mipmap-xxhdpi/ic_launcher.png     | Bin 0 -> 6387 bytes
+ .../main/res/mipmap-xxhdpi/ic_launcher_round.png   | Bin 0 -> 10413 bytes
+ app/src/main/res/mipmap-xxxhdpi/ic_launcher.png    | Bin 0 -> 9128 bytes
+ .../main/res/mipmap-xxxhdpi/ic_launcher_round.png  | Bin 0 -> 15132 bytes
+ app/src/main/res/values/colors.xml                 |   6 +
+ app/src/main/res/values/dimens.xml                 |   3 +
+ app/src/main/res/values/strings.xml                |   4 +
+ app/src/main/res/values/styles.xml                 |  17 ++
+ .../graphingwidgetsbeta/ExampleUnitTest.java       |  17 ++
+ build.gradle                                       |  27 ++++
+ gradle.properties                                  |  25 +++
+ gradle/wrapper/gradle-wrapper.jar                  | Bin 0 -> 54329 bytes
+ gradle/wrapper/gradle-wrapper.properties           |   6 +
+ gradlew                                            | 172 +++++++++++++++++++++
+ gradlew.bat                                        |  84 ++++++++++
+ settings.gradle                                    |   2 +
+ 42 files changed, 873 insertions(+)
+
+commit 12634aa85b302c5dbd0bc48d0ccdcb73186a4aed
+Author: byan13 <46941918+byan13@users.noreply.github.com>
+Date:   Mon Sep 9 10:27:04 2019 -0400
+
+    Initial commit
+
+ README.md | 2 ++
+ 1 file changed, 2 insertions(+)
