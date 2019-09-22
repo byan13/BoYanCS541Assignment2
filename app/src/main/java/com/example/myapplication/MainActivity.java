@@ -96,7 +96,12 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
             customGraphing.setPaint(paint);
             customGraphing.drawImage();
 
-            Toast.makeText(MainActivity.this, "x = " + customGraphing.getxCoor() + ", y = " + customGraphing.getyCoor() + "\n" + "Radius = " + (float)(Math.sqrt(Math.pow(customGraphing.getxCoor() - 520, 2) + Math.pow(customGraphing.getyCoor() - 600, 2))), Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this, "x = " + customGraphing.getxCoor() +
+                    ", y = " + customGraphing.getyCoor() + "\n" + "Radius = " +
+                    (float)(Math.sqrt(Math.pow(customGraphing.getxCoor() - 520, 2) + Math.pow(customGraphing.getyCoor() - 600, 2))) +
+                    "\n" + "Length of side of the inner square = " +
+                    (float)(Math.sqrt(2) * (Math.sqrt(Math.pow(customGraphing.getxCoor() - 525, 2) + Math.pow(customGraphing.getyCoor() - 600, 2))) / 2) +
+                    "\n" + "Length of side of the outer square = " + (float)(Math.sqrt(Math.pow(customGraphing.getxCoor() - 525, 2) + Math.pow(customGraphing.getyCoor() - 600, 2))), Toast.LENGTH_SHORT).show();
 
             return true;
         }else {
